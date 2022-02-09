@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Reassign">10799bfd1b2cc910d1184197dc4bcb5c</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Reassign </label>
+        <location>trailing_swipe</location>
+        <name>Reassign </name>
+        <order>20</order>
+        <parent>6f67294a1b240d10d1184197dc4bcb74</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2021-12-22 04:59:17</sys_created_on>
+        <sys_id>4298618a1b240d10d1184197dc4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reassign </sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_button_instance_4298618a1b240d10d1184197dc4bcb6b</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2021-12-22 04:59:17</sys_updated_on>
+        <table>x_carew_default_ca_fm_case</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=4298618a1b240d10d1184197dc4bcb6b"/>
+</record_update>

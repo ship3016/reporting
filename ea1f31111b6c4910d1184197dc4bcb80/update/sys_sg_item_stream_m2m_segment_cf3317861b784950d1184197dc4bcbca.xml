@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="Approved Change Request Approvals Item Stream">cf1113061b784950d1184197dc4bcbac</item_stream>
+        <segment display_value="Approved">92c25f461b784950d1184197dc4bcbf7</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-03 23:01:16</sys_created_on>
+        <sys_id>cf3317861b784950d1184197dc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_cf3317861b784950d1184197dc4bcbca</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-03 23:01:16</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

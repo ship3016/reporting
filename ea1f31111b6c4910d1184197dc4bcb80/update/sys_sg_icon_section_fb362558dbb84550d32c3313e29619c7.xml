@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets>0b2a2d1cdbb84550d32c3313e29619d0</applets>
+        <data_item/>
+        <display_feed_count>true</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <orientation>vertical</orientation>
+        <required_roles/>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2021-12-29 04:35:23</sys_created_on>
+        <sys_id>fb362558dbb84550d32c3313e29619c7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_icon_section_fb362558dbb84550d32c3313e29619c7</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-17 16:46:56</sys_updated_on>
+        <table/>
+        <title>My Approvals</title>
+        <visible_condition/>
+    </sys_sg_icon_section>
+</record_update>

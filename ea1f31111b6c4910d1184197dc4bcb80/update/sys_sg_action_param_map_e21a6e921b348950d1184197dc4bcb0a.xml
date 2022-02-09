@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Reject">26092a521b348950d1184197dc4bcb4d</button>
+        <item_parameter display_value="sysapproval_id">17a89a9e1bb08950d1184197dc4bcbc4</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-04 14:39:52</sys_created_on>
+        <sys_id>e21a6e921b348950d1184197dc4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>17a89a9e1bb08950d1184197dc4bcbc4</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_e21a6e921b348950d1184197dc4bcb0a</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-04 14:39:52</sys_updated_on>
+        <ui_parameter display_value="EscalationID">ae6922921b348950d1184197dc4bcbc1</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

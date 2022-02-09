@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_relationship_data_item">
+    <sys_sg_relationship_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>escalation_ data_item</name>
+        <query_condition/>
+        <query_condition_script/>
+        <relationship>sn_customerservice_escalation.parent</relationship>
+        <sys_class_name>sys_sg_relationship_data_item</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2021-12-29 04:49:55</sys_created_on>
+        <sys_id>0999211cdbb84550d32c3313e296199c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>escalation_ data_item</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_relationship_data_item_0999211cdbb84550d32c3313e296199c</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-03 21:17:40</sys_updated_on>
+        <table>sn_customerservice_escalation</table>
+        <table_related_to>x_carew_default_ca_fm_case</table_related_to>
+    </sys_sg_relationship_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=0999211cdbb84550d32c3313e296199c"/>
+</record_update>

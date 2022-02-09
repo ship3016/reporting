@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon>{"Name":"Home"}</icon>
+        <name>Home Managed Services Mobile</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2021-12-19 22:46:35</sys_created_on>
+        <sys_id>8f104e511b6c4910d1184197dc4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home Managed Services Mobile</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_icon_8f104e511b6c4910d1184197dc4bcb9e</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2021-12-19 22:46:35</sys_updated_on>
+        <type>image</type>
+    </sys_sg_icon>
+</record_update>

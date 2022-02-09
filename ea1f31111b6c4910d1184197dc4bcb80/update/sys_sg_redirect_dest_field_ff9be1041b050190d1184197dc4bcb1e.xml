@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field">
+    <sys_sg_redirect_dest_field action="INSERT_OR_UPDATE">
+        <button display_value="Related Case">739b6d801b050190d1184197dc4bcb87</button>
+        <button_table>sn_customerservice_escalation</button_table>
+        <constant_value/>
+        <destination_ui_parameter display_value="caseID">1ac7e9001b050190d1184197dc4bcba3</destination_ui_parameter>
+        <source_field>source_record</source_field>
+        <source_ui_parameter/>
+        <sys_class_name>sys_sg_redirect_dest_field</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-09 20:36:04</sys_created_on>
+        <sys_id>ff9be1041b050190d1184197dc4bcb1e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>1ac7e9001b050190d1184197dc4bcba3</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_redirect_dest_field_ff9be1041b050190d1184197dc4bcb1e</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-09 20:36:38</sys_updated_on>
+        <type>field</type>
+    </sys_sg_redirect_dest_field>
+</record_update>

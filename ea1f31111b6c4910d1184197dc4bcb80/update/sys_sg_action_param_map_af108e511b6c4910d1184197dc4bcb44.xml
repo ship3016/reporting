@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Managed Service Case)">6b108e511b6c4910d1184197dc4bcb20</button>
+        <item_parameter display_value="Managed Service Case assignment_group">e7108e511b6c4910d1184197dc4bcb15</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2021-12-19 22:46:37</sys_created_on>
+        <sys_id>af108e511b6c4910d1184197dc4bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e7108e511b6c4910d1184197dc4bcb15</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_af108e511b6c4910d1184197dc4bcb44</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2021-12-19 22:46:37</sys_updated_on>
+        <ui_parameter display_value="Assignment group">e7108e511b6c4910d1184197dc4bcb39</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

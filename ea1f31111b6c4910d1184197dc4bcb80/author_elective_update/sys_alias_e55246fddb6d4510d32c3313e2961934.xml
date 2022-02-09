@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_carew_managed_se.GitHub</id>
+        <multiple_connections>false</multiple_connections>
+        <name>GitHub</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-09 05:16:22</sys_created_on>
+        <sys_id>e55246fddb6d4510d32c3313e2961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_carew_managed_se.GitHub</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_alias_e55246fddb6d4510d32c3313e2961934</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-09 05:16:22</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</application>
+        <file_path/>
+        <instance_id>e14d5609dbbc181ca667cac505961947</instance_id>
+        <instance_name>fullymanageddev</instance_name>
+        <name>sys_alias_e55246fddb6d4510d32c3313e2961934</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><id>x_carew_managed_se.GitHub</id><multiple_connections>false</multiple_connections><name>GitHub</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>Shilpi@fullymanaged.com</sys_created_by><sys_created_on>2022-02-09 05:16:22</sys_created_on><sys_id>e55246fddb6d4510d32c3313e2961934</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_carew_managed_se.GitHub</sys_name><sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package><sys_policy/><sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope><sys_update_name>sys_alias_e55246fddb6d4510d32c3313e2961934</sys_update_name><sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by><sys_updated_on>2022-02-09 05:16:22</sys_updated_on><type>connection</type></sys_alias></record_update>]]></payload>
+        <payload_hash>1548769557</payload_hash>
+        <record_name>x_carew_managed_se.GitHub</record_name>
+        <reverted_from/>
+        <source>d8dfe19d1be9c110d1184197dc4bcb36</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-09 05:16:22</sys_created_on>
+        <sys_id>316286fddb6d4510d32c3313e2961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17edce946390000001</sys_recorded_at>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-09 05:16:22</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>396286fd186d451078660be67a84c552</update_guid>
+        <update_guid_history>396286fd186d451078660be67a84c552:1548769557</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-09 05:35:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>9ee53cf759504a6c95456f80156a3184</sys_id>
+        <sys_metadata>e55246fddb6d4510d32c3313e2961934</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_carew_managed_se.GitHub</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_scope_delete display_value="">08f7e31e33f842928be758be1bfe7399</sys_scope_delete>
+        <sys_update_name>sys_alias_e55246fddb6d4510d32c3313e2961934</sys_update_name>
+        <sys_update_version display_value="sys_alias_e55246fddb6d4510d32c3313e2961934">316286fddb6d4510d32c3313e2961953</sys_update_version>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-09 05:35:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

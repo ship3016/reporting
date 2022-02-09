@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <operation display_value="Set UI Style">1fc6ba105b431010da168d8fa881c7bb</operation>
+        <order/>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-17 16:14:13</sys_created_on>
+        <sys_id>9d0c3de2dbcd8110d32c3313e29619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_9d0c3de2dbcd8110d32c3313e29619d5</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-17 16:14:13</sys_updated_on>
+        <target>text_28</target>
+        <ui_rule display_value="MSCASE_STATE_NEW_NEEDSATTENTION_FORM_VIEW">c0d1fd2adb8d8110d32c3313e2961999</ui_rule>
+        <value>{"BackgroundColor":"#FFA4A3"} </value>
+    </sys_sg_ui_rule_action>
+</record_update>

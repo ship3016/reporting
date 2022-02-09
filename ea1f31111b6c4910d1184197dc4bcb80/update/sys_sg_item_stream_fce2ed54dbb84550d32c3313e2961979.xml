@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="active_cases">68e12dd0dbb84550d32c3313e29619b5</data_item>
+        <interleaved_field/>
+        <name>Active Cases Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2021-12-29 04:20:42</sys_created_on>
+        <sys_id>fce2ed54dbb84550d32c3313e2961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Cases Item Stream</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_item_stream_fce2ed54dbb84550d32c3313e2961979</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2021-12-29 04:20:42</sys_updated_on>
+        <table>x_carew_default_ca_fm_case</table>
+    </sys_sg_item_stream>
+</record_update>

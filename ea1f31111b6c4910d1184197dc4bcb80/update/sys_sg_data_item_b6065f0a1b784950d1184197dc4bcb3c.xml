@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>script</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>requested_change_requests</name>
+        <query_condition/>
+        <query_condition_script><![CDATA[(function getQueryString(input) {
+    //Type appropriate comment here, and begin script below
+    var queryString = '';
+    var change_id_string = "";
+    var approvals = new GlideRecordSecure('sysapproval_approver');
+    approvals.addQuery('approver', gs.getUserID());
+    approvals.addQuery('state', 'requested');
+    approvals.addQuery('sysapproval.sys_class_name', 'change_request');
+    approvals.query();
+
+    while (approvals.next()) {
+        change_id_string += approvals.sysapproval + ",";
+    }
+
+    var changeQuery = new GlideRecordSecure('change_request');
+    changeQuery.addQuery('sys_id', 'IN', change_id_string);
+    changeQuery.orderBy('sys_created_on');
+    queryString = changeQuery.getEncodedQuery();
+
+    return queryString;
+})(input);]]></query_condition_script>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-03 23:13:10</sys_created_on>
+        <sys_id>b6065f0a1b784950d1184197dc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>requested_change_requests</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_data_item_b6065f0a1b784950d1184197dc4bcb3c</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-03 23:13:10</sys_updated_on>
+        <table>change_request</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=b6065f0a1b784950d1184197dc4bcb3c"/>
+</record_update>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button display_value="Record Time">49152df01b41c190d1184197dc4bcbc3</button>
+        <button_parent_table>task_time_worked</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name>rate_type</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>list</input_type>
+        <mandatory>true</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Rate Type</name>
+        <order>4</order>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field>rate_type</source_field>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-12 04:11:27</sys_created_on>
+        <sys_id>7dd661741b41c190d1184197dc4bcbf4</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Rate Type</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_7dd661741b41c190d1184197dc4bcbf4</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-12 19:17:59</sys_updated_on>
+        <table_name>task_time_worked</table_name>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="DELETE" query="documentkey=7dd661741b41c190d1184197dc4bcbf4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</application>
+        <file_path/>
+        <instance_id>e14d5609dbbc181ca667cac505961947</instance_id>
+        <instance_name>fullymanageddev</instance_name>
+        <name>sys_sg_ui_parameter_7dd661741b41c190d1184197dc4bcbf4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button display_value="Record Time">49152df01b41c190d1184197dc4bcbc3</button><button_parent_table>task_time_worked</button_parent_table><carried>false</carried><constant/><default_value/><default_value_type>none</default_value_type><field_name>rate_type</field_name><input_source>user</input_source><input_style>inline</input_style><input_type>list</input_type><mandatory>true</mandatory><max_entries/><multi_entry>false</multi_entry><multi_select>false</multi_select><name>Rate Type</name><order>4</order><parameter_type>button</parameter_type><placeholder/><screen/><search_type>starts_with</search_type><source_field>rate_type</source_field><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>Shilpi@fullymanaged.com</sys_created_by><sys_created_on>2022-01-12 04:11:27</sys_created_on><sys_id>7dd661741b41c190d1184197dc4bcbf4</sys_id><sys_mod_count>11</sys_mod_count><sys_name>Rate Type</sys_name><sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package><sys_policy/><sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope><sys_update_name>sys_sg_ui_parameter_7dd661741b41c190d1184197dc4bcbf4</sys_update_name><sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by><sys_updated_on>2022-01-12 19:17:59</sys_updated_on><table_name>task_time_worked</table_name><virtual_field_value>false</virtual_field_value></sys_sg_ui_parameter><sys_translated_text action="delete_multiple" query="documentkey=7dd661741b41c190d1184197dc4bcbf4"/></record_update>]]></payload>
+        <payload_hash>-1356482028</payload_hash>
+        <record_name>Rate Type</record_name>
+        <reverted_from/>
+        <source>661f71511b6c4910d1184197dc4bcb3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-12 19:17:59</sys_created_on>
+        <sys_id>65867c491b0dc190d1184197dc4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e4fb9bdec0000001</sys_recorded_at>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-12 19:17:59</sys_updated_on>
+        <type>UI parameter</type>
+        <update_guid>a9867c49cf0dc190a8b052841cfa6869</update_guid>
+        <update_guid_history>a9867c49cf0dc190a8b052841cfa6869:-1356482028,d150f0c1b10dc1906b4b047554008cfb:1579387527,404030c1170dc1903f775745227ae5ec:2093628516,9a10fc410f0dc1908517a1f29f3ce79a:1579387527,7eef24815f0dc190b9967c0343d7ed5a:1895733157,239fa881ec0dc1907cac7a6654fb4306:1872981416,f09f2881de0dc190623cab128f0ad466:299050678,fc8f2481c10dc1907db2d1212fe307af:-1362727603,dca865b48441c1904bfbff85f781d9fa:299050678,c4886db49041c190716444449bce81c7:-1912166437,5867ed74cc41c190ee4a66f5f1ab3dba:-152711462,02076974ed41c1907128f3efe7a783c0:-522024399</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-12 19:26:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>02e4ddd21b3c41faa9c35006d1350b84</sys_id>
+        <sys_metadata>7dd661741b41c190d1184197dc4bcbf4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rate Type</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_scope_delete display_value="">08f7e31e33f842928be758be1bfe7399</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_7dd661741b41c190d1184197dc4bcbf4</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_7dd661741b41c190d1184197dc4bcbf4">65867c491b0dc190d1184197dc4bcb6a</sys_update_version>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-12 19:26:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

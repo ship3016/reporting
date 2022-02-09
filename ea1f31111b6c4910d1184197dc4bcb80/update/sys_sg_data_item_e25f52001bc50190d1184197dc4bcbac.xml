@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>active_unassigned_cases</name>
+        <query_condition table="x_carew_default_ca_fm_case">active=true^stateIN1,10,18,11,12,13,14,6^assignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744^sys_class_name=x_carew_default_ca_fm_case^assigned_toISEMPTY^ORDERBYDESCsys_updated_on<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="1,10,18,11,12,13,14,6" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,10,18,11,12,13,14,6"/>
+            <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="DYNAMIC" or="false" value="d6435e965f510100a9ad2572f2b47744"/>
+            <item display_value="Managed Service Case" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_carew_default_ca_fm_case"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_updated_on"/>
+        </query_condition>
+        <query_condition_script><![CDATA[(function getQueryString(input) {
+    //Type appropriate comment here, and begin script below
+ var queryString = '';
+ var gr=new GlideRecord('sn_customerservice_case');
+ return queryString; 
+ })(input);]]></query_condition_script>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-10 00:22:04</sys_created_on>
+        <sys_id>e25f52001bc50190d1184197dc4bcbac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>active_unassigned_cases</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_data_item_e25f52001bc50190d1184197dc4bcbac</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-17 16:45:14</sys_updated_on>
+        <table>x_carew_default_ca_fm_case</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=e25f52001bc50190d1184197dc4bcbac"/>
+</record_update>

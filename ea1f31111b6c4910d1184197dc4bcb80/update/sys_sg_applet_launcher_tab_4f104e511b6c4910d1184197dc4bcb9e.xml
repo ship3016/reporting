@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="Managed Services">07104e511b6c4910d1184197dc4bcb9d</applet_launcher>
+        <icon display_value="File">5a0c41a2b72200108223e126de11a9c3</icon>
+        <label>Managed Services</label>
+        <roles>admin</roles>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2021-12-19 22:46:35</sys_created_on>
+        <sys_id>4f104e511b6c4910d1184197dc4bcb9e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Managed Services</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_4f104e511b6c4910d1184197dc4bcb9e</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2021-12-19 22:59:26</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

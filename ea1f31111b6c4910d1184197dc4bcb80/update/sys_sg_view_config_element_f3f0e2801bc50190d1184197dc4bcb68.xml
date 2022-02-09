@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_52_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-10 00:29:16</sys_created_on>
+        <sys_id>f3f0e2801bc50190d1184197dc4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_52_element</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_f3f0e2801bc50190d1184197dc4bcb68</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-10 00:29:16</sys_updated_on>
+        <view_config display_value="Unassigned Cases View Config">0070aa401bc50190d1184197dc4bcb43</view_config>
+        <view_template_slot display_value="text_52">e0ec10321b78c950d1184197dc4bcbd0</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

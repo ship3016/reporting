@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    //Type appropriate comment here, and begin script below
+    /*if ((gs.nil(input.time_worked_hours) && gs.nil(input.time_worked_minutes)) || input.time_worked_hours > 99 || input.time_worked_minutes > 99 || input.time_worked_hours < 0 || input.time_worked_minutes < 0 || (input.time_worked_hours == 0 && input.time_worked_minutes == 0)) {
+        gs.addErrorMessage(gs.getMessage("Invalid time worked entry"));
+       // return;
+    }*/
+    /*  var hour = input.time_worked_hours < 10 ? '0' + input.time_worked_hours : input.time_worked_hours;
+      var minutes = input.time_worked_minutes < 10 ? '0' + input.time_worked_minutes : input.time_worked_minutes;
+
+      var time_worked = new GlideDuration('0 ' + hour + ':' + minutes + ':00');*/
+
+    var startDate = input.start_time;
+    var endDate = input.end_time;
+    var gdt = new GlideDateTime(startDate);
+    var gdt1 = new GlideDateTime(endDate);
+
+    var user = gs.getUserID();
+    var result;
+
+    if (startDate >= endDate) {
+        result = -1;
+    } else {
+        result = GlideDateTime.subtract(gdt, gdt1).getDurationValue();
+    }
+
+    var time_worked = result;
+    var days = GlideDateTime.subtract(gdt, gdt1).getDayPart();
+
+    //gs.info("============" + ":" + startDate + ":" + endDate);
+    var startDateWeek = global.TimeCardUtil.getStartOfWeekByDate(startDate, user).getDisplayValue();
+    var endDateWeek = global.TimeCardUtil.getStartOfWeekByDate(endDate, user).getDisplayValue();
+
+    //gs.info("============" + ":" + time_worked);
+
+    var sameWeek;
+    if (startDateWeek != endDateWeek) {
+        sameWeek = false;
+    } else {
+        sameWeek = true;
+    }
+
+    //gs.info(time_worked + ":" + days + ":" + result + ":" + startDate + ":" + endDate+":"+sameWeek);
+
+    if (time_worked == '-1') {
+        gs.addErrorMessage(gs.getMessage('End Time must be later than Start Time'));
+        return;
+    } else if (!sameWeek) {
+        gs.addErrorMessage(gs.getMessage('Start time and End time must be on the same week'));
+        return;
+    } else if (parseInt(days) >= 1) {
+        gs.addErrorMessage(gs.getMessage('Time worked must be less than 24 hours'));
+        return;
+    } else {
+
+        var gr = new GlideRecord("task_time_worked");
+        gr.initialize();
+        gr.user = user;
+        gr.task = input.task;
+        gr.u_time_category = input.time_category;
+        gr.comments = input.comments;
+        if (!gr.task.nil() && gr.isValidField("category") && gr.category.nil()) {
+            gr.setValue("category", "task_work");
+        }
+        if (input.rate_type) {
+            gr.rate_type = input.rate_type;
+        }
+        gr.u_start_time = input.start_time;
+        gr.u_end_time = input.end_time;
+        gr.u_client_afterhours = input.client_afterhours;
+        gr.time_worked = time_worked;
+
+        gr.insert();
+    }
+})(input);]]></execution_script>
+        <name>Record Time</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-12 03:26:30</sys_created_on>
+        <sys_id>7b4c59b81b01c190d1184197dc4bcbe5</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>Record Time</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_7b4c59b81b01c190d1184197dc4bcbe5</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-13 02:22:52</sys_updated_on>
+        <table/>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=7b4c59b81b01c190d1184197dc4bcbe5"/>
+</record_update>

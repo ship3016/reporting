@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description>action item to assign case to himself.</description>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+
+    var current = new GlideRecordSecure('x_carew_default_ca_fm_case');
+    var current_sys_id = input.sys_id;
+
+    if (!current.get(input.sys_id)) {
+        gs.error("case_assign_to_me write-back action - failed to find case record");
+        gs.addErrorMessage(gs.getMessage("Case assignment failed."));
+        return;
+    }
+
+    current.assigned_to = gs.getUserID();
+    if (current.state == 1)
+        current.state = 10;
+
+    var gr = new GlideRecord("sys_user_grmember");
+
+    gr.addQuery("user", gs.getUserID());
+    gr.query();
+
+    if (gr.getRowCount() == 1) {
+        while (gr.next()) {
+            current.assignment_group = gr.getValue("group");
+            current.update();
+        }
+    }
+    current.update();
+
+})(input);]]></execution_script>
+        <name>Assign To Me</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-04 13:35:33</sys_created_on>
+        <sys_id>d72b56521bf08950d1184197dc4bcb45</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Assign To Me</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_d72b56521bf08950d1184197dc4bcb45</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-04 13:37:12</sys_updated_on>
+        <table/>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=d72b56521bf08950d1184197dc4bcb45"/>
+</record_update>

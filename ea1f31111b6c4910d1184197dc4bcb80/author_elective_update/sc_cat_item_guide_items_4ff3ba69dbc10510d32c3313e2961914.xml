@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="DELETE">
+        <condition/>
+        <guide display_value="test">77e2f629dbc10510d32c3313e29619c3</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="Workstation hardware">02f66b561bc8ec58d1184197dc4bcb56</item>
+        <order>2</order>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-14 17:43:06</sys_created_on>
+        <sys_id>4ff3ba69dbc10510d32c3313e2961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>02f66b561bc8ec58d1184197dc4bcb56</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_4ff3ba69dbc10510d32c3313e2961914</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-14 17:43:06</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</application>
+        <file_path/>
+        <instance_id>e14d5609dbbc181ca667cac505961947</instance_id>
+        <instance_name>fullymanageddev</instance_name>
+        <name>sc_cat_item_guide_items_4ff3ba69dbc10510d32c3313e2961914</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items"><sc_cat_item_guide_items action="INSERT_OR_UPDATE"><condition/><guide display_value="test">77e2f629dbc10510d32c3313e29619c3</guide><ignore_mandatory_eval>false</ignore_mandatory_eval><item display_value="Workstation hardware">02f66b561bc8ec58d1184197dc4bcb56</item><order>2</order><quantity>1</quantity><requested_by/><requested_for/><show_quantity>false</show_quantity><sys_class_name>sc_cat_item_guide_items</sys_class_name><sys_created_by>Shilpi@fullymanaged.com</sys_created_by><sys_created_on>2022-01-14 17:43:06</sys_created_on><sys_id>4ff3ba69dbc10510d32c3313e2961914</sys_id><sys_mod_count>0</sys_mod_count><sys_name>02f66b561bc8ec58d1184197dc4bcb56</sys_name><sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package><sys_policy/><sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope><sys_update_name>sc_cat_item_guide_items_4ff3ba69dbc10510d32c3313e2961914</sys_update_name><sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by><sys_updated_on>2022-01-14 17:43:06</sys_updated_on><use_sc_layout>true</use_sc_layout></sc_cat_item_guide_items></record_update>]]></payload>
+        <payload_hash>1329018993</payload_hash>
+        <record_name>02f66b561bc8ec58d1184197dc4bcb56</record_name>
+        <reverted_from/>
+        <source>661f71511b6c4910d1184197dc4bcb3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-14 17:43:06</sys_created_on>
+        <sys_id>4ff3ba69dbc10510d32c3313e2961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e59af97e10000001</sys_recorded_at>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-14 17:43:06</sys_updated_on>
+        <type>Rule</type>
+        <update_guid>47f3ba6995c10510434cc1150c6c1917</update_guid>
+        <update_guid_history>47f3ba6995c10510434cc1150c6c1917:1329018993</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Workstation hardware">c564b2a9dbc10510d32c3313e29619a8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-14 17:44:52</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_guide_items">sc_cat_item_guide_items</sys_db_object>
+        <sys_id>0f0b52b2e9204b10a9c57a3d8d537864</sys_id>
+        <sys_metadata>4ff3ba69dbc10510d32c3313e2961914</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>02f66b561bc8ec58d1184197dc4bcb56</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_scope_delete display_value="">08f7e31e33f842928be758be1bfe7399</sys_scope_delete>
+        <sys_update_name>sc_cat_item_guide_items_4ff3ba69dbc10510d32c3313e2961914</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_guide_items_4ff3ba69dbc10510d32c3313e2961914">4ff3ba69dbc10510d32c3313e2961917</sys_update_version>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-14 17:44:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

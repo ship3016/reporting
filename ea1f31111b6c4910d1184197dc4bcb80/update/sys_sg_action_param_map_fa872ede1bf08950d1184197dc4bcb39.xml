@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Escalate Case">1e43a25a1bf08950d1184197dc4bcb61</button>
+        <item_parameter display_value="source">4bff5e561bf08950d1184197dc4bcb83</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-04 14:28:43</sys_created_on>
+        <sys_id>fa872ede1bf08950d1184197dc4bcb39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4bff5e561bf08950d1184197dc4bcb83</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_fa872ede1bf08950d1184197dc4bcb39</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-04 14:28:43</sys_updated_on>
+        <ui_parameter display_value="Request Source">7fd3a65a1bf08950d1184197dc4bcbc2</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>agent_needs_attention</name>
+        <query_condition table="x_carew_default_ca_fm_case">active=true^stateIN1,10,18,11,12,13,14,6^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^needs_attention=true^sys_class_name=x_carew_default_ca_fm_case^ORDERBYDESCsys_updated_on<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="1,10,18,11,12,13,14,6" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="1,10,18,11,12,13,14,6"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="needs_attention" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="Managed Service Case" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_carew_default_ca_fm_case"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_updated_on"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2021-12-19 22:46:35</sys_created_on>
+        <sys_id>9f104e511b6c4910d1184197dc4bcba1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>agent_needs_attention</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_data_item_9f104e511b6c4910d1184197dc4bcba1</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2021-12-22 13:16:27</sys_updated_on>
+        <table>x_carew_default_ca_fm_case</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=9f104e511b6c4910d1184197dc4bcba1"/>
+</record_update>

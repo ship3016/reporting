@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
+    <sys_sg_form_segment action="INSERT_OR_UPDATE">
+        <embedded_screen display_value="Activity Stream">01aa250e1b240d10d1184197dc4bcb21</embedded_screen>
+        <form display_value="New Cases Form">5f67294a1b240d10d1184197dc4bcb5b</form>
+        <header_view_config/>
+        <is_sticky>false</is_sticky>
+        <order>20</order>
+        <sys_class_name>sys_sg_form_segment</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2021-12-22 05:08:13</sys_created_on>
+        <sys_id>c1aa250e1b240d10d1184197dc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_form_segment_c1aa250e1b240d10d1184197dc4bcb28</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2021-12-22 05:08:13</sys_updated_on>
+    </sys_sg_form_segment>
+</record_update>

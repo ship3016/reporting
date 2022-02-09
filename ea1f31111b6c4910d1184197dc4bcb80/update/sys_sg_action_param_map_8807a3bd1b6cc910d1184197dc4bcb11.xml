@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Add Comments">410897bd1b2cc910d1184197dc4bcbba</button>
+        <item_parameter display_value="comments">4aa8917673b22300931febb3c4f6a72f</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2021-12-21 19:33:20</sys_created_on>
+        <sys_id>8807a3bd1b6cc910d1184197dc4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4aa8917673b22300931febb3c4f6a72f</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_8807a3bd1b6cc910d1184197dc4bcb11</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2021-12-21 19:33:20</sys_updated_on>
+        <ui_parameter display_value="Additional comments (Customer Visible)">65316ff51b6cc910d1184197dc4bcb8f</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

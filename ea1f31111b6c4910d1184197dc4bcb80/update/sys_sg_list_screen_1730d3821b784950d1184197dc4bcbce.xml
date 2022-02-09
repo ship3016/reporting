@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description>Change Request Approval Applet</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Arrows-Right-Left">3ec2b64573a300104f78ebb3c4f6a781</icon>
+        <name>Change Requests</name>
+        <roles_override>sn_change_read</roles_override>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-03 22:47:49</sys_created_on>
+        <sys_id>1730d3821b784950d1184197dc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change Requests</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_list_screen_1730d3821b784950d1184197dc4bcbce</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-03 22:47:49</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=1730d3821b784950d1184197dc4bcbce"/>
+</record_update>

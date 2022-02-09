@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Record Time">49152df01b41c190d1184197dc4bcbc3</button>
+        <item_parameter display_value="task">890d15f81b01c190d1184197dc4bcbb7</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-12 20:01:19</sys_created_on>
+        <sys_id>4e6085c11b4dc190d1184197dc4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>890d15f81b01c190d1184197dc4bcbb7</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_4e6085c11b4dc190d1184197dc4bcb94</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-12 20:01:19</sys_updated_on>
+        <ui_parameter display_value="Task">ec2f38411b4dc190d1184197dc4bcb57</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

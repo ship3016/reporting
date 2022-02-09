@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+
+    var current = new GlideRecordSecure('x_carew_default_ca_fm_case');
+
+    if (!current.get(input.sys_id)) {
+        gs.error("managed_services_open_case write-back action - failed to find case record");
+        gs.addErrorMessage(gs.getMessage("Open Case Failed."));
+        return;
+    }
+
+    new global.StateFlow().processFlow(current, 'ca2aa5d2c33231005f76b2c712d3aeb3', 'manual');
+
+})(input);]]></execution_script>
+        <name>Open Case</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-04 13:29:25</sys_created_on>
+        <sys_id>2329dade1bb08950d1184197dc4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Case</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_2329dade1bb08950d1184197dc4bcb67</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-04 13:29:25</sys_updated_on>
+        <table/>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=2329dade1bb08950d1184197dc4bcb67"/>
+</record_update>

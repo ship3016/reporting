@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="DELETE">
+        <data_item/>
+        <dependency_fields>text_28-11566,text_29-3907,text_30-22124,text_46-3091,text_55-3092,text_47-3093,text_48-9763,text_49-9764,text_50-59447,text_51-59448,text_52-33347,text_53-33348</dependency_fields>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Id":28090,"Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Equal","Id":12259,"Children":[{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Id":42845,"BackgroundColor":"#ffffff","Margin":{"Right":12},"Children":[{"Type":"Text","TextColor":"#000000","Font":{"Weight":"regular","Size":13},"MaxLines":1,"Height":21,"Width":100,"TextAlignment":"Center","CellId":"text_28","Id":11566}]},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Right","Distribution":"Equal","Id":42846,"Margin":{},"Children":[{"Type":"Text","TextColor":"#7d8a8c","Font":{"Weight":"bold","Size":13},"MaxLines":1,"TextAlignment":"Right","CellId":"text_29","Id":3907}]}]},{"Type":"Text","TextColor":"#293e40","Font":{"Weight":"regular","Size":15},"MaxLines":2,"Margin":{"Top":9},"TextAlignment":"Left","CellId":"text_30","Id":22124},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Id":12261,"Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{"Top":7},"Id":34348,"Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"TextAlignment":"Left","CellId":"text_46","Id":3091},{"Type":"Text","TextColor":"#161B1C","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_55","Id":3092,"TextAlignment":"Center","Margin":{"Left":8}},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"Margin":{"Left":8},"TextAlignment":"Right","CellId":"text_47","Id":3093}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{"Top":7},"Id":34349,"Children":[{"Type":"Text","TextColor":"#7d8a8c","Font":{"Weight":"regular","Size":13},"MaxLines":1,"Margin":{"Right":8},"TextAlignment":"Left","CellId":"text_48","Id":9763},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"Margin":{"Left":8},"TextAlignment":"Right","CellId":"text_49","Id":9764}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{"Top":7},"Id":34350,"Children":[{"Type":"Text","TextColor":"#7d8a8c","Font":{"Weight":"regular","Size":13},"MaxLines":1,"Margin":{"Right":8},"TextAlignment":"Left","CellId":"text_50","Id":59447},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"TextAlignment":"Right","CellId":"text_51","Id":59448,"Margin":{"Left":8}}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Id":34351,"Margin":{"Top":7},"Children":[{"Type":"Text","TextColor":"#7d8a8c","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_52","Id":33347},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"TextAlignment":"Right","CellId":"text_53","Id":33348,"Margin":{"Left":8}}]}]}]}</item_view_json>
+        <name>test</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-06 21:21:48</sys_created_on>
+        <sys_id>293912471b304d50d1184197dc4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_item_view_293912471b304d50d1184197dc4bcb51</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-06 21:21:48</sys_updated_on>
+        <table>x_carew_default_ca_fm_case</table>
+        <ui_styles>e159284f1b380d50d1184197dc4bcb88</ui_styles>
+    </sys_sg_item_view>
+    <sys_translated_text action="DELETE" query="documentkey=293912471b304d50d1184197dc4bcb51"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</application>
+        <file_path/>
+        <instance_id>e14d5609dbbc181ca667cac505961947</instance_id>
+        <instance_name>fullymanageddev</instance_name>
+        <name>sys_sg_item_view_293912471b304d50d1184197dc4bcb51</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view"><sys_sg_item_view action="INSERT_OR_UPDATE"><data_item/><dependency_fields>text_28-11566,text_29-3907,text_30-22124,text_46-3091,text_55-3092,text_47-3093,text_48-9763,text_49-9764,text_50-59447,text_51-59448,text_52-33347,text_53-33348</dependency_fields><item_view_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Id":28090,"Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Equal","Id":12259,"Children":[{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Id":42845,"BackgroundColor":"#ffffff","Margin":{"Right":12},"Children":[{"Type":"Text","TextColor":"#000000","Font":{"Weight":"regular","Size":13},"MaxLines":1,"Height":21,"Width":100,"TextAlignment":"Center","CellId":"text_28","Id":11566}]},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Right","Distribution":"Equal","Id":42846,"Margin":{},"Children":[{"Type":"Text","TextColor":"#7d8a8c","Font":{"Weight":"bold","Size":13},"MaxLines":1,"TextAlignment":"Right","CellId":"text_29","Id":3907}]}]},{"Type":"Text","TextColor":"#293e40","Font":{"Weight":"regular","Size":15},"MaxLines":2,"Margin":{"Top":9},"TextAlignment":"Left","CellId":"text_30","Id":22124},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Id":12261,"Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{"Top":7},"Id":34348,"Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"TextAlignment":"Left","CellId":"text_46","Id":3091},{"Type":"Text","TextColor":"#161B1C","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_55","Id":3092,"TextAlignment":"Center","Margin":{"Left":8}},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"Margin":{"Left":8},"TextAlignment":"Right","CellId":"text_47","Id":3093}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{"Top":7},"Id":34349,"Children":[{"Type":"Text","TextColor":"#7d8a8c","Font":{"Weight":"regular","Size":13},"MaxLines":1,"Margin":{"Right":8},"TextAlignment":"Left","CellId":"text_48","Id":9763},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"Margin":{"Left":8},"TextAlignment":"Right","CellId":"text_49","Id":9764}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{"Top":7},"Id":34350,"Children":[{"Type":"Text","TextColor":"#7d8a8c","Font":{"Weight":"regular","Size":13},"MaxLines":1,"Margin":{"Right":8},"TextAlignment":"Left","CellId":"text_50","Id":59447},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"TextAlignment":"Right","CellId":"text_51","Id":59448,"Margin":{"Left":8}}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Id":34351,"Margin":{"Top":7},"Children":[{"Type":"Text","TextColor":"#7d8a8c","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_52","Id":33347},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"TextAlignment":"Right","CellId":"text_53","Id":33348,"Margin":{"Left":8}}]}]}]}</item_view_json><name>test</name><short_description/><sys_class_name>sys_sg_item_view</sys_class_name><sys_created_by>Shilpi@fullymanaged.com</sys_created_by><sys_created_on>2022-01-06 21:21:48</sys_created_on><sys_id>293912471b304d50d1184197dc4bcb51</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test</sys_name><sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package><sys_policy/><sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope><sys_update_name>sys_sg_item_view_293912471b304d50d1184197dc4bcb51</sys_update_name><sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by><sys_updated_on>2022-01-06 21:21:48</sys_updated_on><table>x_carew_default_ca_fm_case</table><ui_styles>e159284f1b380d50d1184197dc4bcb88</ui_styles></sys_sg_item_view><sys_translated_text action="delete_multiple" query="documentkey=293912471b304d50d1184197dc4bcb51"/></record_update>]]></payload>
+        <payload_hash>-2105340826</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>661f71511b6c4910d1184197dc4bcb3a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-06 21:21:48</sys_created_on>
+        <sys_id>e05956071b304d50d1184197dc4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e3144eecc0000001</sys_recorded_at>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-06 21:21:48</sys_updated_on>
+        <type>Item view</type>
+        <update_guid>e8595607db304d50eba78f1e057bedb7</update_guid>
+        <update_guid_history>e8595607db304d50eba78f1e057bedb7:-2105340826</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-01-06 21:32:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_view">sys_sg_item_view</sys_db_object>
+        <sys_id>5a92aa8625af485cbbd3749d6e28dd10</sys_id>
+        <sys_metadata>293912471b304d50d1184197dc4bcb51</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_scope_delete display_value="">08f7e31e33f842928be758be1bfe7399</sys_scope_delete>
+        <sys_update_name>sys_sg_item_view_293912471b304d50d1184197dc4bcb51</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_view_293912471b304d50d1184197dc4bcb51">e05956071b304d50d1184197dc4bcbb8</sys_update_version>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-01-06 21:32:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
