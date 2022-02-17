@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Launcher Button">487c15c4db758d10d32c3313e29619fa</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon display_value="User Icon">847c15c4db758d10d32c3313e29619f7</icon>
+        <label>Reports Launcher Button Instance</label>
+        <location>top</location>
+        <name>Reports Launcher Button Instance</name>
+        <order/>
+        <parent>b6b31a31dbed4510d32c3313e296190e</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-16 02:16:49</sys_created_on>
+        <sys_id>007c15c4db758d10d32c3313e29619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reports Launcher Button Instance</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_button_instance_007c15c4db758d10d32c3313e29619fe</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-16 02:16:49</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=007c15c4db758d10d32c3313e29619fe"/>
+</record_update>

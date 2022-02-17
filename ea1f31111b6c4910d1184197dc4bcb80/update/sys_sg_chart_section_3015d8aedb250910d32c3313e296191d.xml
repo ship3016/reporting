@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart_section">
+    <sys_sg_chart_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <charts/>
+        <data_item/>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <orientation>vertical</orientation>
+        <required_roles/>
+        <sys_class_name>sys_sg_chart_section</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-11 05:14:08</sys_created_on>
+        <sys_id>3015d8aedb250910d32c3313e296191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Team Dashboard</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_chart_section_3015d8aedb250910d32c3313e296191d</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-11 05:14:08</sys_updated_on>
+        <table/>
+        <title>My Team Dashboard</title>
+        <type>single_score</type>
+        <visible_condition/>
+    </sys_sg_chart_section>
+</record_update>

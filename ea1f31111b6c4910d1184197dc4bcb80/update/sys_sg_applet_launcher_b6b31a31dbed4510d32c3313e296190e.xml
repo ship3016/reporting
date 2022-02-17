@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>true</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Reports</name>
+        <required_roles/>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-09 06:32:04</sys_created_on>
+        <sys_id>b6b31a31dbed4510d32c3313e296190e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Reports</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_b6b31a31dbed4510d32c3313e296190e</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-16 02:18:14</sys_updated_on>
+        <title>Reports</title>
+    </sys_sg_applet_launcher>
+</record_update>
