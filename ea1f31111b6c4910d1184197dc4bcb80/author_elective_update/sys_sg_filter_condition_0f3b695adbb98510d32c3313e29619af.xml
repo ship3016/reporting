@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition">
+    <sys_sg_filter_condition action="DELETE">
+        <active>true</active>
+        <description/>
+        <label>Account</label>
+        <name>Needs Attention  account filter condition</name>
+        <sys_class_name>sys_sg_filter_condition</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-23 03:07:47</sys_created_on>
+        <sys_id>0f3b695adbb98510d32c3313e29619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needs Attention  account filter condition</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_filter_condition_0f3b695adbb98510d32c3313e29619af</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-23 03:07:47</sys_updated_on>
+        <type display_value="ReferenceList">d0a96483c7234010fc3a2aa9b8c260c6</type>
+    </sys_sg_filter_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</application>
+        <file_path/>
+        <instance_id>e14d5609dbbc181ca667cac505961947</instance_id>
+        <instance_name>fullymanageddev</instance_name>
+        <name>sys_sg_filter_condition_0f3b695adbb98510d32c3313e29619af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition"><sys_sg_filter_condition action="INSERT_OR_UPDATE"><active>true</active><description/><label>Account</label><name>Needs Attention  account filter condition</name><sys_class_name>sys_sg_filter_condition</sys_class_name><sys_created_by>Shilpi@fullymanaged.com</sys_created_by><sys_created_on>2022-02-23 03:07:47</sys_created_on><sys_id>0f3b695adbb98510d32c3313e29619af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Needs Attention  account filter condition</sys_name><sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package><sys_policy/><sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope><sys_update_name>sys_sg_filter_condition_0f3b695adbb98510d32c3313e29619af</sys_update_name><sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by><sys_updated_on>2022-02-23 03:07:47</sys_updated_on><type display_value="ReferenceList">d0a96483c7234010fc3a2aa9b8c260c6</type></sys_sg_filter_condition></record_update>]]></payload>
+        <payload_hash>-1867352985</payload_hash>
+        <record_name>Needs Attention  account filter condition</record_name>
+        <reverted_from/>
+        <source>56090f7cdbb10110d32c3313e296190b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-23 03:07:47</sys_created_on>
+        <sys_id>073b695adbb98510d32c3313e29619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f248c96ca0000001</sys_recorded_at>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-23 03:07:47</sys_updated_on>
+        <type>Filter Condition</type>
+        <update_guid>0f3b695af7b9851071a16740a6db78b1</update_guid>
+        <update_guid_history>0f3b695af7b9851071a16740a6db78b1:-1867352985</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-23 03:09:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_filter_condition">sys_sg_filter_condition</sys_db_object>
+        <sys_id>3666321f1b954a22ad70587e916c0e44</sys_id>
+        <sys_metadata>0f3b695adbb98510d32c3313e29619af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needs Attention  account filter condition</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_scope_delete display_value="">08f7e31e33f842928be758be1bfe7399</sys_scope_delete>
+        <sys_update_name>sys_sg_filter_condition_0f3b695adbb98510d32c3313e29619af</sys_update_name>
+        <sys_update_version display_value="sys_sg_filter_condition_0f3b695adbb98510d32c3313e29619af">073b695adbb98510d32c3313e29619b2</sys_update_version>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-23 03:09:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Open Location record">b71ed256dbbd8510d32c3313e296195e</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Open Location</label>
+        <location>top</location>
+        <name>Open Location</name>
+        <order>70</order>
+        <parent>5f67294a1b240d10d1184197dc4bcb5b</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-23 07:14:22</sys_created_on>
+        <sys_id>4ba36a1edbbd8510d32c3313e296190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Location</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_button_instance_4ba36a1edbbd8510d32c3313e296190b</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-23 07:14:22</sys_updated_on>
+        <table>x_carew_default_ca_fm_case</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=4ba36a1edbbd8510d32c3313e296190b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</application>
+        <file_path/>
+        <instance_id>e14d5609dbbc181ca667cac505961947</instance_id>
+        <instance_name>fullymanageddev</instance_name>
+        <name>sys_sg_button_instance_4ba36a1edbbd8510d32c3313e296190b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Open Location record">b71ed256dbbd8510d32c3313e296195e</button><color_theme>primary</color_theme><description/><field_name/><icon/><label>Open Location</label><location>top</location><name>Open Location</name><order>70</order><parent>5f67294a1b240d10d1184197dc4bcb5b</parent><parent_table>sys_sg_screen</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>Shilpi@fullymanaged.com</sys_created_by><sys_created_on>2022-02-23 07:14:22</sys_created_on><sys_id>4ba36a1edbbd8510d32c3313e296190b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open Location</sys_name><sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package><sys_policy/><sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope><sys_update_name>sys_sg_button_instance_4ba36a1edbbd8510d32c3313e296190b</sys_update_name><sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by><sys_updated_on>2022-02-23 07:14:22</sys_updated_on><table>x_carew_default_ca_fm_case</table></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=4ba36a1edbbd8510d32c3313e296190b"/></record_update>]]></payload>
+        <payload_hash>-1554011268</payload_hash>
+        <record_name>Open Location</record_name>
+        <reverted_from/>
+        <source>56090f7cdbb10110d32c3313e296190b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-23 07:14:22</sys_created_on>
+        <sys_id>cfa3e29edbbd8510d32c3313e296197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f256e55fa0000001</sys_recorded_at>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-23 07:14:22</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>c7a3e29e25bd85104cf925a639d41f7c</update_guid>
+        <update_guid_history>c7a3e29e25bd85104cf925a639d41f7c:-1554011268</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-23 07:16:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>0454bfb1e98c49818ae62090c775d051</sys_id>
+        <sys_metadata>4ba36a1edbbd8510d32c3313e296190b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Location</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_scope_delete display_value="">08f7e31e33f842928be758be1bfe7399</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_4ba36a1edbbd8510d32c3313e296190b</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_4ba36a1edbbd8510d32c3313e296190b">cfa3e29edbbd8510d32c3313e296197c</sys_update_version>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-23 07:16:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-18 18:13:50</sys_created_on>
+        <sys_id>26aa4f34dbf10110d32c3313e296196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EscalationUtils</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_scope_privilege_26aa4f34dbf10110d32c3313e296196e</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-18 18:13:50</sys_updated_on>
+        <target_name>EscalationUtils</target_name>
+        <target_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+</record_update>

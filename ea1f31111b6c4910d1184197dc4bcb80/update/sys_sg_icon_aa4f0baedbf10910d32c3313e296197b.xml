@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon>{"Shape":"Circle","FontName":"now-mobile-icons","Value":"f2b9","Name":"icon-Address-Book","FontColor":"#293E40","BackgroundColor":"#293E40"}</icon>
+        <name>Location Icon</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-24 05:03:25</sys_created_on>
+        <sys_id>aa4f0baedbf10910d32c3313e296197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Location Icon</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_icon_aa4f0baedbf10910d32c3313e296197b</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-24 05:03:25</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+</record_update>

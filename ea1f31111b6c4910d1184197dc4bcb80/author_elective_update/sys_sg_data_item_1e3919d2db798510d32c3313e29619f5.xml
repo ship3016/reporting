@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description>Display locations of selected account</description>
+        <group_by>account</group_by>
+        <instance_relative_url_qc/>
+        <name>location_detailed_view</name>
+        <query_condition/>
+        <query_condition_script><![CDATA[(function getQueryString(input) {
+    //Type appropriate comment here, and begin script below
+    var queryString = 'account='+gs.getUser().getCompanyID();
+    return queryString; 
+})(input);]]></query_condition_script>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-23 01:49:06</sys_created_on>
+        <sys_id>1e3919d2db798510d32c3313e29619f5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>location_detailed_view</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_data_item_1e3919d2db798510d32c3313e29619f5</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-23 04:30:25</sys_updated_on>
+        <table>cmn_location</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=1e3919d2db798510d32c3313e29619f5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</application>
+        <file_path/>
+        <instance_id>e14d5609dbbc181ca667cac505961947</instance_id>
+        <instance_name>fullymanageddev</instance_name>
+        <name>sys_sg_data_item_1e3919d2db798510d32c3313e29619f5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_sg_data_item"&gt;&lt;sys_sg_data_item action="INSERT_OR_UPDATE"&gt;&lt;condition_type&gt;declarative&lt;/condition_type&gt;&lt;description&gt;Display locations of selected account&lt;/description&gt;&lt;group_by&gt;account&lt;/group_by&gt;&lt;instance_relative_url_qc/&gt;&lt;name&gt;location_detailed_view&lt;/name&gt;&lt;query_condition/&gt;&lt;query_condition_script&gt;&lt;![CDATA[(function getQueryString(input) {
+    //Type appropriate comment here, and begin script below
+    var queryString = 'account='+gs.getUser().getCompanyID();
+    return queryString; 
+})(input);]]&gt;&lt;/query_condition_script&gt;&lt;sys_class_name&gt;sys_sg_data_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Shilpi@fullymanaged.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 01:49:06&lt;/sys_created_on&gt;&lt;sys_id&gt;1e3919d2db798510d32c3313e29619f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;location_detailed_view&lt;/sys_name&gt;&lt;sys_package display_value="Managed Services Mobile" source="x_carew_managed_se"&gt;ea1f31111b6c4910d1184197dc4bcb80&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Managed Services Mobile"&gt;ea1f31111b6c4910d1184197dc4bcb80&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_sg_data_item_1e3919d2db798510d32c3313e29619f5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Shilpi@fullymanaged.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 04:30:25&lt;/sys_updated_on&gt;&lt;table&gt;cmn_location&lt;/table&gt;&lt;/sys_sg_data_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1e3919d2db798510d32c3313e29619f5"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>959183560</payload_hash>
+        <record_name>location_detailed_view</record_name>
+        <reverted_from/>
+        <source>56090f7cdbb10110d32c3313e296190b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-23 04:30:25</sys_created_on>
+        <sys_id>512e3952db3d8510d32c3313e296192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f24d83b5d0000001</sys_recorded_at>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-23 04:30:25</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>d52e39528d3d8510abc244603a8c0d2e</update_guid>
+        <update_guid_history>d52e39528d3d8510abc244603a8c0d2e:959183560,8b1d611eb9b98510ca1523d6d1a881ae:-1328149220,f8fc211ee8b9851078726c4226c5450d:21114499,1a3919d2347985106acb6dc3cd026cfa:1592144092</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-24 04:11:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>45206e5c986344e095088b1519a88910</sys_id>
+        <sys_metadata>1e3919d2db798510d32c3313e29619f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>location_detailed_view</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_scope_delete display_value="">08f7e31e33f842928be758be1bfe7399</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_1e3919d2db798510d32c3313e29619f5</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_1e3919d2db798510d32c3313e29619f5">512e3952db3d8510d32c3313e296192f</sys_update_version>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-24 04:11:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

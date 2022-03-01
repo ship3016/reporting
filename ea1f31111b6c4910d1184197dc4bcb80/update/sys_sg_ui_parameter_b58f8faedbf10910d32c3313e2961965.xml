@@ -14,27 +14,27 @@
         <max_entries/>
         <multi_entry>false</multi_entry>
         <multi_select>false</multi_select>
-        <name>task_sys_id</name>
+        <name>location_id</name>
         <order>1</order>
         <parameter_type>screen</parameter_type>
         <placeholder/>
-        <screen display_value="Tasks">7172c6c41b450190d1184197dc4bcb7e</screen>
+        <screen display_value="Location">ee4fcbaedbf10910d32c3313e29619f1</screen>
         <search_type>starts_with</search_type>
         <source_field/>
         <sys_class_name>sys_sg_ui_parameter</sys_class_name>
         <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
-        <sys_created_on>2022-01-09 22:17:26</sys_created_on>
-        <sys_id>c5d242c41b450190d1184197dc4bcb7d</sys_id>
+        <sys_created_on>2022-02-24 05:04:27</sys_created_on>
+        <sys_id>b58f8faedbf10910d32c3313e2961965</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>task_sys_id</sys_name>
+        <sys_name>location_id</sys_name>
         <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
         <sys_policy/>
         <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
-        <sys_update_name>sys_sg_ui_parameter_c5d242c41b450190d1184197dc4bcb7d</sys_update_name>
+        <sys_update_name>sys_sg_ui_parameter_b58f8faedbf10910d32c3313e2961965</sys_update_name>
         <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
-        <sys_updated_on>2022-01-09 22:17:26</sys_updated_on>
+        <sys_updated_on>2022-02-24 05:04:27</sys_updated_on>
         <table_name/>
         <virtual_field_value>false</virtual_field_value>
     </sys_sg_ui_parameter>
-    <sys_translated_text action="delete_multiple" query="documentkey=c5d242c41b450190d1184197dc4bcb7d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=b58f8faedbf10910d32c3313e2961965"/>
 </record_update>

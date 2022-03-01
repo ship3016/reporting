@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="My Case Map Form Icon">e412ce56db3d8510d32c3313e296196a</icon>
+        <item_view/>
+        <name>My Case Map Form</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-23 04:47:34</sys_created_on>
+        <sys_id>2812ce56db3d8510d32c3313e296196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Case Map Form</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_form_screen_2812ce56db3d8510d32c3313e296196d</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-23 04:47:34</sys_updated_on>
+        <table>x_carew_default_ca_fm_case</table>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="My Case Map Form View Config">6012ce56db3d8510d32c3313e2961968</view_config>
+    </sys_sg_form_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=2812ce56db3d8510d32c3313e296196d"/>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="DELETE">
+        <data_item_field_name>location</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>300</order>
+        <record_id_field/>
+        <screen display_value="Details">de2dd6731b05c510d1184197dc4bcbd1</screen>
+        <screen_data_item_table>sn_customerservice_task</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-03-01 05:10:37</sys_created_on>
+        <sys_id>f8e0c59cdb4ecd10d32c3313e29619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>location</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_screen_field_f8e0c59cdb4ecd10d32c3313e29619da</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-03-01 05:10:37</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_translated_text action="DELETE" query="documentkey=f8e0c59cdb4ecd10d32c3313e29619da"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</application>
+        <file_path/>
+        <instance_id>e14d5609dbbc181ca667cac505961947</instance_id>
+        <instance_name>fullymanageddev</instance_name>
+        <name>sys_sg_screen_field_f8e0c59cdb4ecd10d32c3313e29619da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>location</data_item_field_name><description_text/><description_text_field/><description_text_type/><field_name/><hidden>false</hidden><order>300</order><record_id_field/><screen display_value="Details">de2dd6731b05c510d1184197dc4bcbd1</screen><screen_data_item_table>sn_customerservice_task</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>Shilpi@fullymanaged.com</sys_created_by><sys_created_on>2022-03-01 05:10:37</sys_created_on><sys_id>f8e0c59cdb4ecd10d32c3313e29619da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>location</sys_name><sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package><sys_policy/><sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope><sys_update_name>sys_sg_screen_field_f8e0c59cdb4ecd10d32c3313e29619da</sys_update_name><sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by><sys_updated_on>2022-03-01 05:10:37</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field><sys_translated_text action="delete_multiple" query="documentkey=f8e0c59cdb4ecd10d32c3313e29619da"/></record_update>]]></payload>
+        <payload_hash>582586620</payload_hash>
+        <record_name>location</record_name>
+        <reverted_from/>
+        <source>56090f7cdbb10110d32c3313e296190b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-03-01 05:10:37</sys_created_on>
+        <sys_id>fce0c59cdb4ecd10d32c3313e29619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f43e334620000001</sys_recorded_at>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-03-01 05:10:37</sys_updated_on>
+        <type>Screen fields</type>
+        <update_guid>f4e0c59c0b4ecd1079efd65a99ce68dc</update_guid>
+        <update_guid_history>f4e0c59c0b4ecd1079efd65a99ce68dc:582586620</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-03-01 05:19:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_screen_field">sys_sg_screen_field</sys_db_object>
+        <sys_id>78fdf1fac54c4dec81d5217605f9ada4</sys_id>
+        <sys_metadata>f8e0c59cdb4ecd10d32c3313e29619da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>location</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_scope_delete display_value="">08f7e31e33f842928be758be1bfe7399</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_field_f8e0c59cdb4ecd10d32c3313e29619da</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_field_f8e0c59cdb4ecd10d32c3313e29619da">fce0c59cdb4ecd10d32c3313e29619dc</sys_update_version>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-03-01 05:19:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

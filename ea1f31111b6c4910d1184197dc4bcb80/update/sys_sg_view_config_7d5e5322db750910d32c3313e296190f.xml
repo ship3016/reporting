@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Location Map View Config</name>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-24 06:09:10</sys_created_on>
+        <sys_id>7d5e5322db750910d32c3313e296190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Location Map View Config</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_view_config_7d5e5322db750910d32c3313e296190f</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-24 06:09:10</sys_updated_on>
+        <table>cmn_location</table>
+        <template display_value="Map">eae03e5c41a71010f877183fc9b8be24</template>
+    </sys_sg_view_config>
+</record_update>

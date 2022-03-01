@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_50_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-23 05:05:29</sys_created_on>
+        <sys_id>c32602dadb3d8510d32c3313e296193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_50_element</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_c32602dadb3d8510d32c3313e296193f</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-23 05:05:29</sys_updated_on>
+        <view_config display_value="My Case Map Form View Config">6012ce56db3d8510d32c3313e2961968</view_config>
+        <view_template_slot display_value="text_50">397c98fe1b38c950d1184197dc4bcb5b</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

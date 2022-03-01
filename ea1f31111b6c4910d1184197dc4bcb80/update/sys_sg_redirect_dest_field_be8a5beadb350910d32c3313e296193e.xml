@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field">
+    <sys_sg_redirect_dest_field action="INSERT_OR_UPDATE">
+        <button display_value="Open Location record">b71ed256dbbd8510d32c3313e296195e</button>
+        <button_table>x_carew_default_ca_fm_case</button_table>
+        <constant_value/>
+        <destination_ui_parameter display_value="location_id">b58f8faedbf10910d32c3313e2961965</destination_ui_parameter>
+        <source_field/>
+        <source_ui_parameter/>
+        <sys_class_name>sys_sg_redirect_dest_field</sys_class_name>
+        <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
+        <sys_created_on>2022-02-24 05:52:35</sys_created_on>
+        <sys_id>be8a5beadb350910d32c3313e296193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b58f8faedbf10910d32c3313e2961965</sys_name>
+        <sys_package display_value="Managed Services Mobile" source="x_carew_managed_se">ea1f31111b6c4910d1184197dc4bcb80</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Managed Services Mobile">ea1f31111b6c4910d1184197dc4bcb80</sys_scope>
+        <sys_update_name>sys_sg_redirect_dest_field_be8a5beadb350910d32c3313e296193e</sys_update_name>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-02-24 05:52:35</sys_updated_on>
+        <type>field</type>
+    </sys_sg_redirect_dest_field>
+</record_update>
