@@ -29,15 +29,15 @@
         <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
         <sys_created_on>2021-12-19 22:42:11</sys_created_on>
         <sys_id>ea1f31111b6c4910d1184197dc4bcb80</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Curtis.Gallant@fullymanaged.com</sys_updated_by>
-        <sys_updated_on>2022-02-16 16:35:16</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Shilpi@fullymanaged.com</sys_updated_by>
+        <sys_updated_on>2022-03-03 04:04:28</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role display_value="sn_customerservice_agent" name="sn_customerservice_agent">3120f52cc312310015519f2974d3ae83</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.2</version>
     </sys_app>
 </record_update>
