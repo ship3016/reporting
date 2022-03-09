@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
     <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
         <item_stream display_value="Needs Attention  Item Stream">e6a0d2111bac4910d1184197dc4bcbd3</item_stream>
-        <master_item display_value="Needs Attention  Main Item">6ea0d2111bac4910d1184197dc4bcbf5</master_item>
+        <master_item display_value="Needs Attention Main Item">6ea0d2111bac4910d1184197dc4bcbf5</master_item>
         <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
         <sys_created_by>Shilpi@fullymanaged.com</sys_created_by>
         <sys_created_on>2021-12-19 23:58:55</sys_created_on>
